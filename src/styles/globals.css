@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth !important;
+}
+.container {
+  @apply mx-auto px-4 md:px-8;
+}
+.splide {
+  padding: 0 !important;
+}
+.top-gap {
+  @apply pt-[64px] md:pt-[96px];
+}
+.bottom-gap {
+  @apply pb-[64px] md:pb-[96px];
+}
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
